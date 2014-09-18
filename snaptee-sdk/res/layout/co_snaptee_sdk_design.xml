@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <co.snaptee.shared.view.TeeDesignView
+            android:id="@+id/tee_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/co_snaptee_btn_reset"/>
+
+        <ListView
+            android:id="@+id/colors"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"
+            android:choiceMode="singleChoice"
+            android:divider="@null">
+        </ListView>
+
+        <co.snaptee.sdk.view.HorizontalListView
+            android:id="@+id/cloth_categories"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#CC000000"
+            android:choiceMode="singleChoice"
+            android:layout_alignParentBottom="true"
+            android:divider="@null" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/co_snaptee_button_background"
+        android:src="@drawable/co_snaptee_btn_tick"/>
+
+</LinearLayout>
+

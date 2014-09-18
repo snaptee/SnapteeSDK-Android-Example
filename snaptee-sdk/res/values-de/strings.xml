@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="co_snaptee_design">Design</string>
+    <string name="co_snaptee_order">Order</string>
+    <string name="co_snaptee_next">Weiter</string>
+    <string name="co_snaptee_size">Größe</string>
+    <string name="co_snaptee_style">Stil</string>
+    <string name="co_snaptee_ship_to">Lieferadresse:</string>
+    <string name="co_snaptee_shipping_type">Lieferadresse:</string>
+    <string name="co_snaptee_discount_amount">Preisnachlass</string>
+    <string name="co_snaptee_add_coupon_code">Gutscheincode hinzufügen</string>
+    <string name="co_snaptee_apply">Anwenden</string>
+    <string name="co_snaptee_cancel">Abbrechen</string>
+    <string name="co_snaptee_delivery_information">Lieferinformationen</string>
+    <string name="co_snaptee_name">Vorname</string>
+    <string name="co_snaptee_email">E-Mail</string>
+    <string name="co_snaptee_phone">Telefon</string>
+    <string name="co_snaptee_address">Adresse</string>
+    <string name="co_snaptee_address1">Adresszeile 1</string>
+    <string name="co_snaptee_address2">Adresszeile 2 (optional)</string>
+    <string name="co_snaptee_city">Stadt</string>
+    <string name="co_snaptee_zip_code">PLZ (optional)</string>
+    <string name="co_snaptee_order_id">Bestellnummer:</string>
+    <string name="co_snaptee_receipt">Receipt</string>
+    <string name="co_snaptee_paypal">PayPal</string>
+    <string name="co_snaptee_error">Fehler beim Laden der Daten</string>
+    <string name="co_snaptee_payment_success">Du wirst in Kürze eine Bestätigungs-E-Mail erhalten.\nBitte checke deine Mailbox.</string>
+    <string name="co_snaptee_ok">OK</string>
+    <string name="co_snaptee_thank_you">Danke</string>
+    <string name="co_snaptee_order_more">Mehr bestellen</string>
+    <string name="co_snaptee_back_to_design">Zurück zum Design</string>
+    <string name="co_snaptee_back_to_app">Zurück zu %s</string>
+    <string name="co_snaptee_payment">Zahlung</string>
+    <string name="use_another_card">Andere Karte verwenden</string>
+    <string name="credit_card">Kreditkarte</string>
+    <string name="co_snaptee_clothing">Stil</string>
+    <string name="pay_by">Mit %s bezahlen</string>
+    <string name="pay_pal">PayPal</string>
+    <string name="co_snaptee_your_card_is_invalid">Deine Karte ist ungültig</string>
+
+</resources>

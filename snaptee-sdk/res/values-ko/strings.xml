@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="co_snaptee_design">Design</string>
+    <string name="co_snaptee_order">Order</string>
+    <string name="co_snaptee_next">다음</string>
+    <string name="co_snaptee_size">사이즈</string>
+    <string name="co_snaptee_style">스타일</string>
+    <string name="co_snaptee_ship_to">배송 주소:</string>
+    <string name="co_snaptee_shipping_type">배송 주소:</string>
+    <string name="co_snaptee_discount_amount">할인 금액</string>
+    <string name="co_snaptee_add_coupon_code">쿠폰 코드 추가</string>
+    <string name="co_snaptee_apply">적용</string>
+    <string name="co_snaptee_cancel">취소</string>
+    <string name="co_snaptee_delivery_information">배송 정보</string>
+    <string name="co_snaptee_name">이름</string>
+    <string name="co_snaptee_email">이메일</string>
+    <string name="co_snaptee_phone">전화번호</string>
+    <string name="co_snaptee_address">주소</string>
+    <string name="co_snaptee_address1">주소 1</string>
+    <string name="co_snaptee_address2">주소 2 (필수 아님)</string>
+    <string name="co_snaptee_city">시</string>
+    <string name="co_snaptee_zip_code">우편번호 (필수 아님)</string>
+    <string name="co_snaptee_order_id">주문 ID:</string>
+    <string name="co_snaptee_receipt">Receipt</string>
+    <string name="co_snaptee_paypal">PayPal</string>
+    <string name="co_snaptee_error">데이터 불러오기 오류</string>
+    <string name="co_snaptee_payment_success">확인 이메일을 곧 수신하게 됩니다!\n메일함을 확인하세요.</string>
+    <string name="co_snaptee_ok">확인</string>
+    <string name="co_snaptee_thank_you">감사합니다!</string>
+    <string name="co_snaptee_order_more">추가 주문</string>
+    <string name="co_snaptee_back_to_design">디자인으로 돌아가기</string>
+    <string name="co_snaptee_back_to_app">%s로 돌아가기</string>
+    <string name="co_snaptee_payment">결제</string>
+    <string name="use_another_card">다른 카드로 결제</string>
+    <string name="credit_card">신용카드</string>
+    <string name="co_snaptee_clothing">스타일</string>
+    <string name="pay_by">결제 방법 %s</string>
+    <string name="pay_pal">PayPal</string>
+    <string name="co_snaptee_your_card_is_invalid">유효하지 않은 카드입니다</string>
+
+</resources>

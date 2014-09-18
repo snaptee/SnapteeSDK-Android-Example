@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.snapteeSdkSample"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name=".SampleActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="co.snaptee.sdk.DesignActivity"
+                  android:label="@string/co_snaptee_design"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.SnapteeSDK">
+
+        </activity>
+
+        <activity android:name="co.snaptee.sdk.OrderActivity"
+                  android:label="@string/co_snaptee_order"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.SnapteeSDK">
+
+        </activity>
+
+        <activity android:name="co.snaptee.sdk.PayPalActivity"
+                  android:label="@string/co_snaptee_paypal"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.SnapteeSDK">
+
+        </activity>
+
+        <activity android:name="co.snaptee.sdk.ReceiptActivity"
+                  android:label="@string/co_snaptee_receipt"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/Theme.SnapteeSDK">
+
+        </activity>
+
+    </application>
+</manifest>
