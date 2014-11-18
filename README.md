@@ -111,4 +111,4 @@ The client app can get all orders in onActivityResult()
     }
 
 Example App:
-[Snaptee Android SDK example app](./snaptee-sdk-sample-production-20141114v1.apk)
+snaptee-sdk-sample-production-20141114v1.apk
