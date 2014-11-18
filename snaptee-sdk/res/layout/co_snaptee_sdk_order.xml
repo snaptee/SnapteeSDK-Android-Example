@@ -35,9 +35,9 @@
 
                     <co.snaptee.shared.view.TeeThumbnailView
                         android:id="@+id/tee_thumbnail"
-                        android:background="#d8d8d8"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent"
+                        android:background="#d8d8d8"/>
 
                 </co.snaptee.shared.view.SquareFrameLayout>
 
@@ -65,14 +65,27 @@
                         android:textColor="#FF0000"
                         android:textSize="15sp"/>
 
-                    <TextView
-                        android:id="@+id/size_label"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/co_snaptee_size"
-                        android:layout_marginTop="25dp"
-                        android:textColor="#FFFFFF"
-                        android:textSize="15sp"/>
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginTop="25dp"
+                                  android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/size_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/co_snaptee_size"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"/>
+
+                        <ImageView
+                            android:id="@+id/size_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/co_snaptee_button_info"/>
+                    </LinearLayout>
+
 
                     <LinearLayout
                         android:id="@+id/sizes"
@@ -95,11 +108,11 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/coupon_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/coupon_field"
-                android:paddingLeft="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingLeft="10dp">
 
                 <EditText
                     android:id="@+id/coupon_code"
@@ -148,7 +161,7 @@
                         android:gravity="right"
                         android:text=""
                         android:textColor="#000"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"/>
                 </TableRow>
 
                 <TableRow>
@@ -194,7 +207,7 @@
                         android:gravity="right"
                         android:text=""
                         android:textColor="#000"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"/>
                 </TableRow>
                 <TableRow>
                     <TextView
@@ -280,11 +293,11 @@
                 android:background="#000"/>
 
             <TextView
-                android:padding="10dp"
                 android:id="@+id/total"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="right"
+                android:padding="10dp"
                 android:text=""
                 android:textColor="#000"
                 android:textSize="16sp"/>
@@ -352,7 +365,7 @@
                     android:inputType="textPersonName"
                     android:nextFocusDown="@+id/email"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -369,7 +382,7 @@
                     android:gravity="center_vertical"
                     android:text="@string/co_snaptee_email"
                     android:textColor="#777"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"/>
 
                 <EditText
                     android:id="@+id/email"
@@ -381,7 +394,7 @@
                     android:inputType="textEmailAddress"
                     android:nextFocusDown="@+id/phone_zip_code"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -418,7 +431,7 @@
                     android:inputType="phone"
                     android:nextFocusDown="@+id/phone"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
 
                 <TextView
@@ -439,7 +452,7 @@
                     android:inputType="phone"
                     android:nextFocusDown="@+id/address1"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -456,7 +469,7 @@
                     android:gravity="center_vertical"
                     android:text="@string/co_snaptee_address"
                     android:textColor="#777"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"/>
 
                 <EditText
                     android:id="@+id/address1"
@@ -468,7 +481,7 @@
                     android:inputType="textPostalAddress"
                     android:nextFocusDown="@+id/address2"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -496,7 +509,7 @@
                     android:inputType="textPostalAddress"
                     android:nextFocusDown="@+id/city"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -524,7 +537,7 @@
                     android:inputType="textPostalAddress"
                     android:nextFocusDown="@+id/country"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -544,16 +557,16 @@
 
                 <EditText
                     android:id="@+id/country"
-                    android:editable="false"
-                    android:focusable="false"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:editable="false"
                     android:ems="10"
+                    android:focusable="false"
                     android:hint=""
                     android:inputType="textPersonName"
                     android:textColor="#999"
-                    android:textColorHint="#aaa">
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
 
@@ -578,10 +591,10 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/co_snaptee_zip_code"
-                    android:textColor="#999"
                     android:lines="1"
                     android:singleLine="true"
-                    android:textColorHint="#aaa">
+                    android:textColor="#999"
+                    android:textColorHint="#ccc">
                 </EditText>
             </LinearLayout>
         </LinearLayout>

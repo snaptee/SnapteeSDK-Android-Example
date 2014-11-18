@@ -30,12 +30,16 @@
     <string name="co_snaptee_order_more">สั่งซื้อเพิ่ม</string>
     <string name="co_snaptee_back_to_design">กลับไปออกแบบ</string>
     <string name="co_snaptee_back_to_app">กลับไปยัง %s</string>
+    <string name="co_snaptee_your_card_is_invalid">หมายเลขบัตรของคุณไม่ถูกต้อง</string>
+    <string name="co_snaptee_faq">FAQ</string>
     <string name="co_snaptee_payment">การชำระเงิน</string>
     <string name="use_another_card">ใช้บัตรอื่น</string>
-    <string name="credit_card">บัตรเครดิต</string>
+    <string name="co_snaptee_credit_card">บัตรเครดิต</string>
     <string name="co_snaptee_clothing">สไตล์</string>
     <string name="pay_by">จ่ายเงินด้วย%s</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">หมายเลขบัตรของคุณไม่ถูกต้อง</string>
-
+    <string name="overlay_title">สร้างเสื้อยืดของคุณเอง?</string>
+    <string name="overlay_description">ไม่อะไรดีไปกว่าการได้เป็นเจ้าของสิ่งที่เราออกแบบเอง Snaptee จะถ่ายทอดลายออกแบบที่สวยงามของคุณลงบนผ้าฝ้าย 100% และจัดส่งเสื้อยืดนั้นไปถึงมือคุณ</string>
+    <string name="co_snaptee_alipay">Alipay</string>
+    <string name="co_snaptee_contact_snaptee">ติดต่อ Snaptee</string>
 </resources>

@@ -30,12 +30,16 @@
     <string name="co_snaptee_order_more">Pesan lagi</string>
     <string name="co_snaptee_back_to_design">Back to design</string>
     <string name="co_snaptee_back_to_app">Kembali ke %s</string>
+    <string name="co_snaptee_your_card_is_invalid">Kartu kreditmu tidak sah</string>
+    <string name="co_snaptee_faq">TJU</string>
     <string name="co_snaptee_payment">Pembayaran</string>
     <string name="use_another_card">Gunakan kartu kredit lainnya</string>
-    <string name="credit_card">Kreditkarte</string>
+    <string name="co_snaptee_credit_card">Kreditkarte</string>
     <string name="co_snaptee_clothing">Gaya</string>
     <string name="pay_by">Bayar dengan %s</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">Kartu kreditmu tidak sah</string>
-
+    <string name="overlay_title">Buat T-shirt?</string>
+    <string name="overlay_description">Tak ada hal yang lebih menyenangkan dibanding dengan memegang sesuatu yang kamu buat sendiri. Snaptee mencetak desain cantikmu pada bahan katun 100% dan mengirimkannya langsung padamu dalam bentuk T-shirt.</string>
+    <string name="co_snaptee_alipay">Alipay</string>
+    <string name="co_snaptee_contact_snaptee">Hubungi Snaptee</string>
 </resources>

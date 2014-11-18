@@ -30,12 +30,16 @@
     <string name="co_snaptee_order_more">Commander plus</string>
     <string name="co_snaptee_back_to_design">Retour vers le design</string>
     <string name="co_snaptee_back_to_app">Retour vers %s</string>
+    <string name="co_snaptee_your_card_is_invalid">Votre carte n\'est pas valide</string>
+    <string name="co_snaptee_faq">FAQ</string>
     <string name="co_snaptee_payment">Paiement</string>
     <string name="use_another_card">Utiliser une autre carte</string>
-    <string name="credit_card">Carte bancaire</string>
+    <string name="co_snaptee_credit_card">Carte bancaire</string>
     <string name="co_snaptee_clothing">Style</string>
     <string name="pay_by">Payer avec %s</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">Votre carte n\'est pas valide</string>
-
+    <string name="overlay_title">Créer un tee shirt ?</string>
+    <string name="overlay_description">Rien ne vaut le fait de tenir dans la main quelque chose que vous avez créé. Snaptee imprime votre design magnifique sur du coton 100% et vous envoie directement un tee shirt unique.</string>
+    <string name="co_snaptee_alipay">Alipay</string>
+    <string name="co_snaptee_contact_snaptee">Contacter Snaptee</string>
 </resources>

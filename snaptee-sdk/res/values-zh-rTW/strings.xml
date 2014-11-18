@@ -30,12 +30,16 @@
     <string name="co_snaptee_order_more">購買更多</string>
     <string name="co_snaptee_back_to_design">回到設計頁</string>
     <string name="co_snaptee_back_to_app">回到%s</string>
+    <string name="co_snaptee_your_card_is_invalid">您的信用卡無效</string>
+    <string name="co_snaptee_faq">常見問題</string>
     <string name="co_snaptee_payment">付款方式</string>
     <string name="use_another_card">使用其他信用卡</string>
-    <string name="credit_card">信用卡</string>
+    <string name="co_snaptee_credit_card">信用卡</string>
     <string name="co_snaptee_clothing">款式</string>
     <string name="pay_by">使用%s付款</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">您的信用卡無效</string>
-
+    <string name="overlay_title">要創作T恤嗎？</string>
+    <string name="overlay_description">沒有什麼能比得上擁有自己原創的東西。Snaptee將你精美的設計印於100％純棉的T恤上，並把獨一無二的創作直接送到你手中。</string>
+    <string name="co_snaptee_alipay">支付寶</string>
+    <string name="co_snaptee_contact_snaptee">聯絡Snaptee</string>
 </resources>

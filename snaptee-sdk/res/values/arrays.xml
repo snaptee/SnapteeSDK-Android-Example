@@ -2,37 +2,15 @@
 <resources>
 
     <string-array name="co_snaptee_payments_array">
-        <item>PayPal</item>
-        <item>Credit Card</item>
+        <item>@string/pay_pal</item>
+        <item>@string/co_snaptee_alipay</item>
+        <item>@string/co_snaptee_credit_card</item>
     </string-array>
 
-    <string-array name="co_snaptee_year_array">
-        <item>YYYY</item>
-        <item>2012</item>
-        <item>2013</item>
-        <item>2014</item>
-        <item>2015</item>
-        <item>2016</item>
-        <item>2017</item>
-        <item>2018</item>
-        <item>2019</item>
-        <item>2020</item>
-    </string-array>
-
-    <string-array name="co_snaptee_month_array">
-        <item>MM</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
+    <string-array name="co_snaptee_faq_array">
+        <item>@string/co_snaptee_faq</item>
+        <item>@string/co_snaptee_contact_snaptee</item>
+        <item>@string/co_snaptee_cancel</item>
     </string-array>
 
 </resources>

@@ -30,12 +30,16 @@
     <string name="co_snaptee_order_more">Mehr bestellen</string>
     <string name="co_snaptee_back_to_design">Zurück zum Design</string>
     <string name="co_snaptee_back_to_app">Zurück zu %s</string>
+    <string name="co_snaptee_your_card_is_invalid">Deine Karte ist ungültig</string>
+    <string name="co_snaptee_faq">FAQ</string>
     <string name="co_snaptee_payment">Zahlung</string>
     <string name="use_another_card">Andere Karte verwenden</string>
-    <string name="credit_card">Kreditkarte</string>
+    <string name="co_snaptee_credit_card">Kreditkarte</string>
     <string name="co_snaptee_clothing">Stil</string>
     <string name="pay_by">Mit %s bezahlen</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">Deine Karte ist ungültig</string>
-
+    <string name="overlay_title">T-Shirt gestalten?</string>
+    <string name="overlay_description">Nichts ist schöner als eine Eigenkreation in den Händen zu halten. Snaptee druckt dein schönes Design auf 100 % Baumwolle und schickt dein einzigartiges T-Shirt direkt zu dir nach Hause.</string>
+    <string name="co_snaptee_alipay">Alipay</string>
+    <string name="co_snaptee_contact_snaptee">Snaptee kontaktieren</string>
 </resources>

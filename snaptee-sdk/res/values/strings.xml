@@ -31,12 +31,16 @@
     <string name="co_snaptee_back_to_design">Back to design</string>
     <string name="co_snaptee_back_to_app">Back to %s</string>
     <string name="co_snaptee_free_shipping">Free Shipping</string>
+    <string name="co_snaptee_your_card_is_invalid">Your card is invalid</string>
+    <string name="co_snaptee_faq">FAQ</string>
     <string name="co_snaptee_payment">Payment</string>
     <string name="use_another_card">Use another card</string>
-    <string name="credit_card">Credit Card</string>
+    <string name="co_snaptee_credit_card">Credit Card</string>
     <string name="co_snaptee_clothing">Styles</string>
     <string name="pay_by">Pay By %s</string>
     <string name="pay_pal">PayPal</string>
-    <string name="co_snaptee_your_card_is_invalid">Your card is invalid</string>
-
+    <string name="overlay_title">Make a T-shirt?</string>
+    <string name="overlay_description">There\'s nothing quite like holding something you created Snaptee points your beautiful design on 1000% cotton and sends your one of a kind T-shirt directly to you.</string>
+    <string name="co_snaptee_alipay">Alipay</string>
+    <string name="co_snaptee_contact_snaptee">Contact Snaptee</string>
 </resources>
