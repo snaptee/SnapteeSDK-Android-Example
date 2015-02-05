@@ -109,3 +109,6 @@ The client app can get all orders in onActivityResult()
                 break;
         }
     }
+
+Example App:
+snaptee-sdk-sample-production-20141114v1.apk
