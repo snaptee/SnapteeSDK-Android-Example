@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">snaptee-sdk</string>
+
     <string name="co_snaptee_design">Design</string>
     <string name="co_snaptee_order">Order</string>
     <string name="co_snaptee_next">Next</string>

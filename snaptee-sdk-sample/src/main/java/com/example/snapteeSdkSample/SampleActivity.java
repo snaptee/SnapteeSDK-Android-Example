@@ -16,7 +16,6 @@ import co.snaptee.sdk.model.OrderInfo;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Locale;
 
 public class SampleActivity extends Activity {
 
