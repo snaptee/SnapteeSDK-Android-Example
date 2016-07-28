@@ -1,1 +1,1 @@
-include ':snaptee-sdk-sample', ':snaptee-sdk'
+include ':snaptee-sdk-sample'
