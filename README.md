@@ -9,6 +9,7 @@ Snaptee SDK   :womans_clothes:  :necktie: :tada:
      libs/
        snaptee-sdk.aar
    ```
+   `snaptee-sdk.aar` can be found in this repo at `snaptee-sdk-sample/libs/`
 
    Then let your app aware of Snaptee SDK by adding following snippest to your
    `build.gradle`:
