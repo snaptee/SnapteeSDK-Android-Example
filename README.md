@@ -1,6 +1,11 @@
 Snaptee SDK   :womans_clothes:  :necktie: :tada:
 =================
 
+## Requirements
+
+Android minSdkVersion supported by SnapteeSDK is 18, which correspond to android
+4.3.
+
 ## Incorporate Snaptee SDK with your app
 
 1. Create a directory structure like this
